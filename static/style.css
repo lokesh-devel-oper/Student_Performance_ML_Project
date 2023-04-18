@@ -1,0 +1,79 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Login Form Styles */
+  
+  .login {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .login h1 {
+    margin-bottom: 30px;
+  }
+  
+  .login label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login select, .login input[type=number] {
+    margin-bottom: 20px;
+  }
+  
+  .login input[type=submit] {
+    margin-top: 20px;
+  }
+  
+  .login h2 {
+    margin-top: 30px;
+  }
+  
+  .placeholder {
+    color: #888;
+  }
+  
+  /* Media Query */
+  
+  @media (max-width: 768px) {
+    .login {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
